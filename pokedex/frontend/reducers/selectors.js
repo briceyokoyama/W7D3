@@ -1,5 +1,5 @@
-export default ({ entities: pokemon }) => {
-  return Object.values(pokemon);
+export default (state) => {
+  return Object.values(state.entities.pokemon);
 };
 
 
